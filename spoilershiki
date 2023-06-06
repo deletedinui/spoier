@@ -1,0 +1,8 @@
+.b-collection-topic>.inner .collection-row.is-spoilers .cover .image-cutter img,
+.b-collection-topic>.inner .collection-row.is-spoilers .cover .title,
+.b-menu-line.is-spoilers .blurred,
+.p-animes-collections .b-collection-topic.is-spoilers>.inner header .name, 
+.p-mangas-collections .b-collection-topic.is-spoilers>.inner header .name, 
+.p-characters-collections .b-collection-topic.is-spoilers>.inner header .name {
+filter: none;
+}
