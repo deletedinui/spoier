@@ -1,0 +1,62 @@
+/* Более компактное отображение постеров на странице списков */
+#user_rates_index .list-posters > .c-column {
+  margin-right: 1%;
+  margin-bottom: 15px;
+}
+#user_rates_index .list-posters > .c-column:nth-child(5n+1) {
+  clear: unset;
+}
+
+@media screen and (min-width: 1200px) {
+  #user_rates_index .list-posters > .c-column:nth-child(8n+1) {
+      clear: left;
+  }
+  #user_rates_index .list-posters > .c-column {
+      width: 11.6%;
+  }
+  #user_rates_index .list-posters > .c-column:nth-child(8n) {
+      margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  #user_rates_index .list-posters > .c-column:nth-child(7n+1) {
+      clear: left;
+  }
+  #user_rates_index .list-posters > .c-column {
+      width: 13.4%;
+  }
+  #user_rates_index .list-posters > .c-column:nth-child(7n) {
+      margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .cc-5>.c-column:nth-child(3n+1) {
+    clear: unset;
+  }
+  #user_rates_index .list-posters > .c-column:nth-child(5n+1) {
+      clear: left;
+  }
+  #user_rates_index .list-posters > .c-column {
+      width: 19.2%;
+  }
+  #user_rates_index .list-posters > .c-column:nth-child(5n) {
+      margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cc-5>.c-column:nth-child(2n+1) {
+    clear: unset;
+  }
+  #user_rates_index .list-posters > .c-column:nth-child(3n+1) {
+      clear: left;
+  }
+  #user_rates_index .list-posters > .c-column {
+      width: 32.6%;
+  }
+  #user_rates_index .list-posters > .c-column:nth-child(3n) {
+      margin-right: 0;
+  }
+}
